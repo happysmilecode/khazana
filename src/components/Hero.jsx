@@ -1,8 +1,9 @@
-import styles from '../style'
+import styles from '../style';
+import { jpgBackground } from '../assets';
 
 const Hero = () => {
   return (
-    <section id='home' className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+    <section id='home' className={`flex md:flex-row flex-col ${styles.paddingY}`} style={{backgroundImage: `url(${jpgBackground})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center'}}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className='w-full flex flex-col'>
           <h1 className='font-nunito font-semibold sm:text-[130px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] text-gradient uppercase'>Khazana</h1>

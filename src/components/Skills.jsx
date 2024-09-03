@@ -33,7 +33,7 @@ const Skills = () => {
                     <img src={icArrow} className='' />
                     <div className='flex flex-col md:flex-row items-center border-b border-[##7099C7] w-full'>
                         <Typography variant='' className='text-white text-[32px] w-full leading-[70px]'>Blockchain:</Typography>
-                        <p style={{color: 'white'}}>Recognizing the growing importance of blockchain technology, Codeverse Technologies also offers specialized services in this domain. Our experts are well-versed in developing smart contracts, working with the Solana blockchain, and leveraging Solidity to create innovative decentralized applications.</p>
+                        <p style={{color: 'white'}}>Recognizing the growing importance of blockchain technology, Khazana Technologies also offers specialized services in this domain. Our experts are well-versed in developing smart contracts, working with the Solana blockchain, and leveraging Solidity to create innovative decentralized applications.</p>
                     </div>
                 </div>
             </div>

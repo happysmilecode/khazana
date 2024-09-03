@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import jpgLogo from './logo.jpg';
+import jpgBackground from './bg.jpg';
 import icWhatsapp from './whatsapp.svg';
 import icSkype from './skype.svg';
 import icTelegram from './telegram.svg';
@@ -12,5 +13,5 @@ import portfolio_4 from './portfolio_4.png';
 
 export {
   logo, icWhatsapp, icSkype, icTelegram, icDiscord, icArrow, portfolio_1, portfolio_2, portfolio_3, portfolio_4, jpgLogo,
-
+  jpgBackground
 };
